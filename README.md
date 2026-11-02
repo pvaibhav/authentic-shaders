@@ -10,6 +10,12 @@ These shaders come from the Authentic screen mode in [my fork of slot](https://g
 |---|---|---|
 | ![Game Boy](screenshots/gb-rgsp.png) | ![Game Boy Color](screenshots/gbc-rgsp.png) | ![Game Boy Advance](screenshots/gba-640x480.png) |
 
+| Game Boy Pocket, Tetris | Game Boy Light, Tetris |
+|---|---|
+| ![Tetris with the Game Boy Pocket shader](screenshots/gb-pocket-720x480.png) | ![Tetris with the Game Boy Light shader](screenshots/gb-light-720x480.png) |
+
+Pocket and Light are rendered at the RG35XX SP's 720x480 resolution.
+
 ## The original screens
 
 The Game Boy, Pocket, GBC and original GBA used the light around you to light the picture. Light passed through the LCD, bounced off a reflective backing and returned through the pixels. The shaders aim to capture what that looked like, right down to the shadows and texture beneath the glass.
