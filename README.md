@@ -6,15 +6,15 @@ Choose the Game Boy's yellow-green screen, the Pocket's pale grey-green, the Lig
 
 These shaders come from the Authentic screen mode in [my fork of slot](https://github.com/pvaibhav/slot).
 
-| Game Boy (RG35XX SP) | Game Boy Color (RG35XX SP) | Game Boy Advance (640x480, rendered) |
+| Game Boy | Game Boy Pocket | Game Boy Light |
 |---|---|---|
-| ![Game Boy](screenshots/gb-rgsp.png) | ![Game Boy Color](screenshots/gbc-rgsp.png) | ![Game Boy Advance](screenshots/gba-640x480.png) |
+| ![Mario's Picross with the Game Boy shader](screenshots/gb-dmg-720x480.png) | ![Mario's Picross with the Game Boy Pocket shader](screenshots/gb-pocket-720x480.png) | ![Mario's Picross with the Game Boy Light shader](screenshots/gb-light-720x480.png) |
 
-| Game Boy Pocket, Tetris | Game Boy Light, Tetris |
+| Game Boy Color | Game Boy Advance |
 |---|---|
-| ![Tetris with the Game Boy Pocket shader](screenshots/gb-pocket-720x480.png) | ![Tetris with the Game Boy Light shader](screenshots/gb-light-720x480.png) |
+| ![Mario Tennis with the Game Boy Color shader](screenshots/gbc-720x480.png) | ![Advance Wars with the Game Boy Advance shader](screenshots/gba-1024x768.png) |
 
-Pocket and Light are rendered at the RG35XX SP's 720x480 resolution.
+All examples are rendered with the included overlays. Game Boy, Pocket, Light and GBC use the RG35XX SP's 720x480 resolution. GBA uses the TrimUI Brick's 1024x768 resolution.
 
 ## The original screens
 
