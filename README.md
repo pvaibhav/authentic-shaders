@@ -1,6 +1,6 @@
 # Authentic LCD shaders
 
-The Game Boy's dark dots cast shadows beneath green glass. The Game Boy Color's screen has a faint sparkle. These shaders bring the texture and depth of the original LCDs to your handheld, complete with pixel grids, glass reflections and bezels.
+These shaders bring the texture and depth of the original LCDs to your handheld, complete with pixel grids, glass reflections and bezels.
 
 Choose the Game Boy's yellow-green screen, the Pocket's pale grey-green, the Light's turquoise glow, or the subdued colours of the Game Boy Color and Game Boy Advance.
 
