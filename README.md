@@ -26,6 +26,14 @@ The Game Boy, Pocket, GBC and original GBA used the light around you to light th
 
 The colour references are [Pokefan531's screen measurements](https://github.com/Pokefan531/Handheld-Colorspace-Shaders), the [Handheld Color Space Project](https://github.com/Brankale/Handheld-Color-Space-Project) and BGB's "GBC reality" colours. The Game Boy dot shading and bezels come from Harlequin's dmg-3x and gb-pocket-3x shaders. The Light palette comes from TWB64.
 
+## Included overlays
+
+Each screen look includes a matching overlay with tinted glass, reflections and a bezel that casts a shadow around the picture. The Game Boy uses a grey bezel; the other looks use the black Pocket bezel.
+
+Overlays come in 640x480, 720x480, 720x720, 1024x768 and 1280x720. Choose your device's resolution and keep Screen Scaling on Native for the right fit. On the RG35XX SP's 720x480 screen, the GBA picture fills the display, so its overlay adds only the glass.
+
+Versions without the bezel are included in `Overlays/<console>/Authentic panel only`. Move the one you want up one folder, then select it under Options > Overlay.
+
 ## Install and use on NextUI
 
 1. Download `Authentic-GB-GBC-GBA.pakz` from the [latest release](../../releases/latest), copy it to the root of your SD card and start NextUI to install it.
@@ -35,7 +43,7 @@ The colour references are [Pokefan531's screen measurements](https://github.com/
 
 Keep Screen Scaling on Native so the picture fits the overlay. The presets set this for you, turn off the emulator's own colour correction and turn on LCD ghosting. Leave the Game Boy palette as the preset sets it.
 
-For lighter or stronger Game Boy dot shadows, adjust `DOT_SHADOW` under Options > Shaders > Shader Settings. To hide the bezel, move an overlay from `Overlays/<console>/Authentic panel only` up one folder, then select it under Options > Overlay. See the [NextUI guide](nextui/README.md) for supported resolutions and setup details.
+For lighter or stronger Game Boy dot shadows, adjust `DOT_SHADOW` under Options > Shaders > Shader Settings. See the [NextUI guide](nextui/README.md) for more setup details.
 
 ## Licence
 
